@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: -4px;
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+h2, h3 {
+  font-size: 18px;
+}
+
+header {
+  height: 52px;
+  padding: 9px 28px;
+  background: #8FE0E6;
+}
+
+.logo {
+  float: left;
+  width: 35px;
+}
+nav {
+  float: right;
+  padding: 8px;
+}
+
+nav a {
+  padding: 9px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+section {
+  height: 500px;
+  padding: 50px;
+  background-image: url("images/park.jpg");
+  background-size: cover;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 30px;
+}
+
+.pic-feature {
+  width: 290px;
+  height: 290px;
+  margin: 24px auto;
+  background-image: url("images/dog1-sq.jpg");
+  background-size: cover;
+  border: 4px solid #3B8CA7;
+  border-radius: 50%;
+}
+
+main a {
+  padding: 4px 8px;
+  border: 4px solid #3B8DA8;
+  background-color: #FFF;
+  color: #3B8DA8;
+  text-decoration: none;
+}
+.columns {
+  display: inline-block;
+  width: 33.3333%;
+  padding: 30px 15px 0px 15px;
+  margin: -4px;
+  vertical-align: top;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+  margin: 25px auto;
+  background-size: cover;
+  border: 2px solid #3B8CA7;
+  border-radius: 50%;
+}
+
+.pic-how {
+  background-image: url("images/dog2-sq.jpg");
+}
+
+.pic-what {
+  background-image: url("images/dog3-sq.jpg");
+}
+
+.pic-facts {
+  background-image: url("images/dog4-sq.jpg");
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+footer {
+  height: 210px;
+  padding: 4px;
+  margin-top: 40px;
+  background-color: #3B8DA8;
+  color: #FFF;
+}
+
+footer a {
+  text-decoration: none;
+}
+/*so this is annoying, without 'text-decoration: none;' I got weird little link lines between the social icons! Do we know why?*/
+
+.social {
+  display: inline-block;
+  width: 55px;
+  height: 45px;
+  margin: 22px;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.facebook {
+  background-image: url("images/facebook.svg");
+}
+/*How do we apply an alt attribute for the background-image technique?*/
+
+.twitter {
+  background-image: url("images/twitter.svg");
+}
+
+.instagram {
+  background-image: url("images/instagram.svg");
+}
+
+.linkedin {
+  background-image: url("images/linkedin.svg");
+}
+
+.github {
+  display: inline-block;
+  width: 100%;
+  margin: 10px auto;
+  color: #FFF;
+  text-decoration: underline;
+}
